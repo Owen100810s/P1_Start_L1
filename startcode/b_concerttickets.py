@@ -10,3 +10,12 @@
 #
 # Voorbeelduitvoer:
 # De totale prijs bedraagt 31.65 euro.
+
+
+mensen = int(input("Hoeveel mensen gaan naar het concert? "))
+
+prijs = int(input("Wat is de prijs per ticket? "))
+
+totale_prijs = prijs * mensen
+
+print("In totaal kost het", totale_prijs)
